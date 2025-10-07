@@ -14,6 +14,9 @@
 </head>
 
 <body>
+    <div id="myProgress">
+  <div id="myBar"></div>
+</div>
     <header class="py-4 border-bottom text-white">
         <div class="container">
             <h1 class="h4 m-0">🍂 JS Event Listeners Demo</h1>
@@ -30,6 +33,7 @@
                             <button id="btnClick" class="btn">Click Me</button>
                             <button id="btnTime" class="btn">Show Time</button>
                             <button id="btnClear" class="btn">Clear Output</button>
+                            <button id="btnBar" onclick="move()" class="btn">Activate Bar</button>
                         </div>
                         <p class="text-secondary small m-0">
                             We’ll demo: click, double-click, keypress, and a one-shot time message.
